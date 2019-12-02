@@ -2,7 +2,7 @@
 and changes each 2 lines order"""
 
 
-def fswap(filename1:str, filename2:str) -> None:
+def fswap(filename1: str, filename2: str) -> None:
     """
     Copy the file on line-by-line basis in pair-swapped order
     :param filename1: original file, the source for copying
