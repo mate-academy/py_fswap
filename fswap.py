@@ -3,9 +3,6 @@
 
 def fswap(filename1: str, filename2: str) -> None:
     """swap element"""
-
-    file_read = open(filename1)
-    file_write = open(filename2, 'w')
     with open(filename1, 'rt') as file_read:
         with open(filename2, 'wt') as file_write:
             list_item = file_read.readlines()
